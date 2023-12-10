@@ -22,44 +22,44 @@ A 4D Raymarching Engine for Unity that helps render 4D objects and has the follo
 * Open a new scene and add the `Raymarcher` component to the Main Camera.
 * The `Raymarcher` script has the following paramters in the inspector:
   
-| Category             | Variable         | Description                                                                  |
-|----------------------|------------------|------------------------------------------------------------------------------|
-| **General Settings** | Shader           | Shader used for raymarching.                                                 |
-|                      | Sun              | Directional light in the scene.                                              |
-|                      | Loop             | Repetition of structures in the raymarching shader.                          |
-| **4D Settings**      | W Pos            | Global W position in 4D space.                                               |
-|                      | W Rot            | Global W rotation in 4D space.                                               |
-| **Light Settings**   | Is Lit           | Toggle lighting calculations on/off.                                         |
-|                      | Is Shadow Hard   | Toggle between hard and soft shadows.                                        |
-|                      | Is AO            | Enable or disable Ambient Occlusion.                                         |
-|                      | Light Col        | Color of the light.                                                          |
-|                      | Light Intensity  | Intensity of the light.                                                      |
-|                      | Shadow Intensity | Intensity of shadows.                                                        |
-|                      | Shadow Min       | Minimum shadow distance.                                                     |
-|                      | Shadow Max       | Maximum shadow distance.                                                     |
-|                      | Shadow Smooth    | Smoothness of shadow edges.                                                  |
-|                      | AO Step          | Step size for AO calculation.                                                |
-|                      | AO Intensity     | Intensity of AO.                                                             |
-|                      | AO Iteration     | Number of iterations for AO calculation.                                     |
-| **Render Settings**  | Max Steps        | Maximum number of steps for raymarching.                                     |
-|                      | Max Dist         | Maximum distance to raymarch before considering a hit.                       |
-|                      | Surf Dist        | Threshold for considering a hit in raymarching.                              |
+  | Category             | Variable         | Description                                                                  |
+  |----------------------|------------------|------------------------------------------------------------------------------|
+  | **General Settings** | Shader           | Shader used for raymarching.                                                 |
+  |                      | Sun              | Directional light in the scene.                                              |
+  |                      | Loop             | Repetition of structures in the raymarching shader.                          |
+  | **4D Settings**      | W Pos            | Global W position in 4D space.                                               |
+  |                      | W Rot            | Global W rotation in 4D space.                                               |
+  | **Light Settings**   | Is Lit           | Toggle lighting calculations on/off.                                         |
+  |                      | Is Shadow Hard   | Toggle between hard and soft shadows.                                        |
+  |                      | Is AO            | Enable or disable Ambient Occlusion.                                         |
+  |                      | Light Col        | Color of the light.                                                          |
+  |                      | Light Intensity  | Intensity of the light.                                                      |
+  |                      | Shadow Intensity | Intensity of shadows.                                                        |
+  |                      | Shadow Min       | Minimum shadow distance.                                                     |
+  |                      | Shadow Max       | Maximum shadow distance.                                                     |
+  |                      | Shadow Smooth    | Smoothness of shadow edges.                                                  |
+  |                      | AO Step          | Step size for AO calculation.                                                |
+  |                      | AO Intensity     | Intensity of AO.                                                             |
+  |                      | AO Iteration     | Number of iterations for AO calculation.                                     |
+  | **Render Settings**  | Max Steps        | Maximum number of steps for raymarching.                                     |
+  |                      | Max Dist         | Maximum distance to raymarch before considering a hit.                       |
+  |                      | Surf Dist        | Threshold for considering a hit in raymarching.                              |
 
 ### Rendering a shape
 * After adding the `Raymarcher` component to the Main Camera, create an empty gameobject and add the `RaymarchRenderer` component to it.
 * Click the `Create New Dimensions` button to create a scriptable object containing all the data about the shape's dimension that you can control using the custom editor for each shape.
 * The `RaymarchRenderer` script has the following paramters in the inspector:
   
-| Category              | Variable         | Description                                                               |
-|-----------------------|------------------|---------------------------------------------------------------------------|
-| **Default Inspector** | Shape            | 4D shape to be rendered.                                                  |
-|                       | Operation        | Operation to be performed (union, subtraction, intersection).             |
-|                       | Color            | Color of the shape.                                                       |
-|                       | Rot W            | Local W rotation in 4D space.                                             |
-|                       | Pos W            | Local W position in 4D space.                                             |
-|                       | Blend Factor     | Currently not implemented                                                 |
-|                       | Dimensions       | Scriptable Object holding the shape's dimension data.                     |
-| **Shape Dimensions**  | Dimension Props  | The dimension properties based on the chosen 4D shape.                    |
+  | Category              | Variable         | Description                                                               |
+  |-----------------------|------------------|---------------------------------------------------------------------------|
+  | **Default Inspector** | Shape            | 4D shape to be rendered.                                                  |
+  |                       | Operation        | Operation to be performed (union, subtraction, intersection).             |
+  |                       | Color            | Color of the shape.                                                       |
+  |                       | Rot W            | Local W rotation in 4D space.                                             |
+  |                       | Pos W            | Local W position in 4D space.                                             |
+  |                       | Blend Factor     | Currently not implemented                                                 |
+  |                       | Dimensions       | Scriptable Object holding the shape's dimension data.                     |
+  | **Shape Dimensions**  | Dimension Props  | The dimension properties based on the chosen 4D shape.                    |
 
   
 ## Contributing
