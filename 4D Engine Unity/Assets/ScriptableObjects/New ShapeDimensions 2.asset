@@ -78,4 +78,4 @@ MonoBehaviour:
   vertCapsuleH: 0.5
   vertCapsuleR: 0.5
   fiveCellA: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  sixteenCellS: 0.5
+  sixteenCellS: 1.59

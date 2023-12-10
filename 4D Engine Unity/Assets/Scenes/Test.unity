@@ -251,7 +251,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 699109753}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -380,14 +380,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798373076}
-  m_LocalRotation: {x: -0, y: -0, z: 0.1819, w: 0.9833171}
+  m_LocalRotation: {x: -0.12527691, y: -0.2691476, z: 0.4029608, w: 0.86572963}
   m_LocalPosition: {x: 0.51, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 699109754}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 20.961}
+  m_LocalEulerAnglesHint: {x: 0, y: -34.54, z: 49.92}
 --- !u!114 &798373078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   editorStateChange: 0
-  shape: 4
+  shape: 15
   operation: 0
   color: {r: 0.041065454, g: 1, b: 0, a: 1}
   rotW: {x: 0, y: 0, z: 0}
@@ -530,9 +530,9 @@ MonoBehaviour:
   lightIntensity: 1.2
   shadowIntensity: 1
   shadowMin: 1
-  shadowMax: 47
+  shadowMax: 50
   shadowSmooth: 12.5
-  AOStep: 0.2
+  AOStep: 0.08
   AOIntensity: 0.5
   AOIteration: 1
   maxSteps: 225
@@ -583,7 +583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   editorStateChange: 0
-  shape: 23
+  shape: 33
   operation: 0
   color: {r: 0, g: 0.2835765, b: 1, a: 1}
   rotW: {x: 0, y: 0, z: 0}

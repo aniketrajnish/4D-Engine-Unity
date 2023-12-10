@@ -22,11 +22,11 @@ public class Raymarcher : SceneViewFilter
     [SerializeField] public float wPos;
     [SerializeField] public Vector3 wRot;
     [Header("Light Settings")]
-    [SerializeField] bool isLit;
-    [SerializeField] bool isShadowHard = true;
-    [SerializeField] bool isAO;
-    [SerializeField] Color lightCol;
-    [SerializeField] public float lightIntensity, shadowIntensity, shadowMin, shadowMax, shadowSmooth, AOStep, AOIntensity;
+    [SerializeField] bool isLit = true;
+    [SerializeField] bool isShadowHard;
+    [SerializeField] bool isAO = true;
+    [SerializeField] Color lightCol = Color.white;
+    [SerializeField] public float lightIntensity = 1.2f, shadowIntensity = 1, shadowMin = 1, shadowMax = 50, shadowSmooth = 12.5f, AOStep = .08f, AOIntensity = .5f;
     [SerializeField] int AOIteration;
     [Header("Render Settings")]
     [SerializeField] float maxSteps = 225;
