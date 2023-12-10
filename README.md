@@ -20,7 +20,7 @@ A 4D Raymarching Engine for Unity that helps render 4D objects and has the follo
  
 ### Setting up a scene
 * Open a new scene and add the `Raymarcher` component to the Main Camera.
-* The `Raymarcher` script has the following paramters in the inspector:
+* The `Raymarcher` script has the following parameters in the inspector:
   
   | Category             | Variable         | Description                                                                  |
   |----------------------|------------------|------------------------------------------------------------------------------|
