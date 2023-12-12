@@ -15,6 +15,7 @@ A 4D Raymarching Engine for Unity that helps render 4D objects and has the follo
   ```
   git clone https://github.com/aniketrajnish/4D-Engine-Unity.git
   ```
+* Import the [Unity.Mathematics](https://docs.unity3d.com/Packages/com.unity.mathematics@1.0/manual/index.html) package from the package manager.
 * The package includes a pre-configured `Test` scene that serves as a reference. You can use this as a starting point for your project.
 * If you want to setup a new scene by yourself, simply follow the steps outlined below.
  
