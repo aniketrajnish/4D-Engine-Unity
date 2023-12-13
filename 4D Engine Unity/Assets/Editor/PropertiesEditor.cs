@@ -3,6 +3,7 @@ using UnityEditor;
 using UnityEngine;
 
 [CustomEditor(typeof(RaymarchRenderer))]
+[CanEditMultipleObjects]
 public class PropertiesEditor : Editor
 {
     public override void OnInspectorGUI()
