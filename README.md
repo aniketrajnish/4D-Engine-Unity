@@ -6,6 +6,9 @@ A 4D Raymarching Engine for Unity that helps render 4D objects and has the follo
 * Supports ambient occlusion, lighting information, hard and soft shadows.
 * Control over both global and local 4D translation and rotation.
 
+I have made a 4D pacman game using this engine. You can check it out [here](https://makra.itch.io/pacman-4d-into-the-4th-dimension).<br>
+If you want to learn more about what 4D is, check out [this](https://youtu.be/6Gim95bukm8?si=ROa28v9MgNcfmv7B) video that I made using this engine as the backend.
+
 https://github.com/aniketrajnish/4D-Engine-Unity/assets/58925008/5236d70c-4b92-4d8d-ae84-e815993945dd
 
 ## Usage
