@@ -27,7 +27,7 @@ public class Raymarcher : SceneViewFilter
     [SerializeField] bool isAO = true;
     [SerializeField] Color lightCol = Color.white;
     [SerializeField] public float lightIntensity = 1.2f, shadowIntensity = 1, shadowMin = 1, shadowMax = 50, shadowSmooth = 12.5f, AOStep = .08f, AOIntensity = .5f;
-    [SerializeField] int AOIteration;
+    [SerializeField] int AOIteration = 1;
     [Header("Render Settings")]
     [SerializeField] float maxSteps = 225;
     [SerializeField] float maxDist = 1000;
