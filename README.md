@@ -63,6 +63,7 @@ https://github.com/aniketrajnish/4D-Engine-Unity/assets/58925008/5236d70c-4b92-4
   |                       | Pos W            | Local W position in 4D space.                                             |
   |                       | Blend Factor     | Currently not implemented                                                 |
   |                       | Dimensions       | Scriptable Object holding the shape's dimension data.                     |
+  |                       | Create New Dimensions | Button to create new dimenion scriptable object for the shape |
   | **Shape Dimensions**  | Dimension Props  | The dimension properties based on the chosen 4D shape.                    |
 
   
